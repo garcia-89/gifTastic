@@ -1,0 +1,68 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+#wrap {
+    background-color: whitesmoke;
+    color: darkgray;
+}
+
+#header {
+    background-color: whitesmoke;
+    height: 70px;
+}
+
+#title {
+    color: red;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 16px;
+}
+
+#buttonArea {
+    margin-top: 10px;
+}
+
+.btn {
+    margin: 3px;
+}
+
+#gifArea {
+    margin-top: 20px;
+}
+
+.gifBorders {
+    border-radius: 5px;
+    border: 2px solid red;
+}
+
+.submit {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid darkgray;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.credits {
+    font-size: .8em;
+}
+
+.clear {
+    clear: both;
+}
